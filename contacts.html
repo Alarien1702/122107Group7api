@@ -1,0 +1,141 @@
+<HTML>
+    <!-- add the right css file -->
+
+<link rel="stylesheet" href="{{url_for('.static', filename='stylesflask.css')}}">
+
+
+    
+    <header>   <header class="container-fluid bg-4 text-center"></header>
+            <div class="mylogo">
+                <img src="images/images.jpg" width="50" height="50" alt="site logo">
+            </div>
+
+            <button class="nav-btn" aria-label="nav-button">
+                <span class="btn"></span>
+            </button>
+                <div class="sidenav">
+         <nav class= "mynav">
+         <ul class ="mynav_ul">
+            <style>
+                .bg-4 {
+                  background-color: #2f2f2f;
+                  color: #030303;
+                }
+                </style>
+                    <li class="mynav_item"> <a href="index.html" class="mynav_link">Home</a></li>
+                    <li class="mynav_item"> <a href="#skills" class="mynav_link">Creative Styles</a></li>
+                    <li class="mynav_item"> <a href="#about" class="mynav_link">About Me</a></li>
+                    <li class="mynav_item"> <a href="#projects" class="mynav_link">Art Projects</a></li>
+                    <li class ="mynav_item"> <a href="contacts.html" class="mynav_link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <style>
+          html, body {
+         
+          }
+          h1 {
+          margin: 0 0 20px;
+          font-weight: 400;
+          color: #1c87c9;
+          }
+          p {
+          margin: 0 0 5px;
+          }
+                   }
+          form {
+          padding: 25px;
+          margin: 25px;
+          box-shadow: 0 2px 5px #f5f5f5; 
+          background: #f5f5f5; 
+          }
+          .fas {
+          margin: 25px 10px 0;
+          font-size: 72px;
+          color: #fff;
+          }
+          .fa-envelope {
+          transform: rotate(-20deg);
+          }
+          .fa-at , .fa-mail-bulk{
+          transform: rotate(10deg);
+          }
+          input, textarea {
+          width: calc(100% - 18px);
+          padding: 8px;
+          margin-bottom: 20px;
+          border: 1px solid #1c87c9;
+          outline: none;
+          }
+          input::placeholder {
+          color: rgb(126, 24, 24);
+          }
+          button {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          background: #1c87c9; 
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          }
+          button:hover {
+          background: #2371a0;
+          }    
+          @media (min-width: 568px) {
+          .main-block {
+          flex-direction: row;
+          }
+          .left-part, form {
+          width: 50%;
+          }
+          .fa-envelope {
+          margin-top: 0;
+          margin-left: 20%;
+          }
+          .fa-at {
+          margin-top: -10%;
+          margin-left: 65%;
+          }
+          .fa-mail-bulk {
+          margin-top: 2%;
+          margin-left: 28%;
+          }
+          }
+        </style>
+        <div class="main-block">
+            
+            </div>
+            <form action="/">
+<head>
+    
+<div class="contact">
+  
+<h1>Kindly fill in your contact details in the form below: </h1>
+<body>
+<form text align="center">
+    <!-- Just here i use "url_for" to call the function get_contact.
+         This function return the html code of our contact page-->
+<form name="input" action="demo_form_action.asp" method="get"><br>
+<p>First Name:<input class="First Name" input type="text" name="First Name"><br></p>
+<p>Last Name:<input class="Last Name" input type="text" name="Last Name"><br></p>
+<p>Email:<input class="Email" input type="text" name="Email"><br></p>
+<br>
+<p>Message:<input class="Message" input type="text" name="Message"><br></p>
+<div>
+    <textarea rows="4"></textarea>
+    
+<input type="submit" value="submit">
+</form>
+
+    </div>
+        <style>
+    .bg-4 {
+      background-color: #2f2f2f;
+      color: #ffffff;
+    }
+               </style>
+
+    
+</html>
